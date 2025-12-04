@@ -55,3 +55,5 @@
 [2025-12-04 22:00:25,730] INFO Snapshotting: 0x0 to /Users/vishnu/IdeaProjects/kafka/data/zoookeeper/version-2/snapshot.0 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
 [2025-12-04 22:00:25,736] INFO Using checkIntervalMs=60000 maxPerMinute=10000 (org.apache.zookeeper.server.ContainerManager)
 [2025-12-04 22:11:35,159] INFO Creating new log file: log.1 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2025-12-05 00:52:51,573] WARN Unable to read additional data from client sessionid 0x100005506170000, likely client has closed socket (org.apache.zookeeper.server.NIOServerCnxn)
+[2025-12-05 00:53:15,636] INFO Expiring session 0x100005506170000, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)

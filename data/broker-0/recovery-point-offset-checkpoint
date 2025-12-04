@@ -12,9 +12,9 @@ __consumer_offsets 18 0
 __consumer_offsets 15 0
 __consumer_offsets 24 0
 __consumer_offsets 48 0
-first-topic 1 0
+first-topic 1 7
 __consumer_offsets 6 0
-first-topic 0 0
+first-topic 0 6
 __consumer_offsets 0 0
 __consumer_offsets 39 0
 __consumer_offsets 12 0
