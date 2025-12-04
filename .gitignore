@@ -15,6 +15,14 @@ classes/
 # Maven build directory
 target/
 
+logs/
+data/broker-0
+data/broker-1
+data/broker-2
+data/zookeeper
+data/zoookeeper
+
+
 # Logs
 *.log
 

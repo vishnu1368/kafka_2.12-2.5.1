@@ -29,3 +29,4 @@ Consumer:
 
 Consumer offset/lag details:
      kafka-run-class.sh kafka.admin.ConsumerGroupCommand --bootstrap-server localhost:9092,localhost:9093 --group first-group --describe
+
