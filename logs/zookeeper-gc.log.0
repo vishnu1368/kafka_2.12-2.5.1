@@ -1,0 +1,25 @@
+[2025-12-04T21:52:45.956+0530][gc,init] CardTable entry size: 512
+[2025-12-04T21:52:45.956+0530][gc     ] Using G1
+[2025-12-04T21:52:45.957+0530][gc,init] Version: 23.0.2+7 (release)
+[2025-12-04T21:52:45.957+0530][gc,init] CPUs: 10 total, 10 available
+[2025-12-04T21:52:45.957+0530][gc,init] Memory: 16384M
+[2025-12-04T21:52:45.957+0530][gc,init] Large Page Support: Disabled
+[2025-12-04T21:52:45.957+0530][gc,init] NUMA Support: Disabled
+[2025-12-04T21:52:45.957+0530][gc,init] Compressed Oops: Enabled (Zero based)
+[2025-12-04T21:52:45.957+0530][gc,init] Heap Region Size: 1M
+[2025-12-04T21:52:45.957+0530][gc,init] Heap Min Capacity: 512M
+[2025-12-04T21:52:45.957+0530][gc,init] Heap Initial Capacity: 512M
+[2025-12-04T21:52:45.957+0530][gc,init] Heap Max Capacity: 512M
+[2025-12-04T21:52:45.957+0530][gc,init] Pre-touch: Disabled
+[2025-12-04T21:52:45.957+0530][gc,init] Parallel Workers: 9
+[2025-12-04T21:52:45.957+0530][gc,init] Concurrent Workers: 2
+[2025-12-04T21:52:45.957+0530][gc,init] Concurrent Refinement Workers: 9
+[2025-12-04T21:52:45.957+0530][gc,init] Periodic GC: Disabled
+[2025-12-04T21:52:45.960+0530][gc,metaspace] CDS archive(s) mapped at: [0x0000038000000000-0x0000038000d94000-0x0000038000d94000), size 14237696, SharedBaseAddress: 0x0000038000000000, ArchiveRelocationMode: 1.
+[2025-12-04T21:52:45.960+0530][gc,metaspace] Compressed class space mapped at: 0x0000038001000000-0x0000038041000000, reserved size: 1073741824
+[2025-12-04T21:52:45.960+0530][gc,metaspace] Narrow klass base: 0x0000038000000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2025-12-04T21:52:51.207+0530][gc,heap,exit] Heap
+[2025-12-04T21:52:51.207+0530][gc,heap,exit]  garbage-first heap   total reserved 524288K, committed 524288K, used 18548K [0x00000007e0000000, 0x0000000800000000)
+[2025-12-04T21:52:51.207+0530][gc,heap,exit]   region size 1024K, 17 young (17408K), 0 survivors (0K)
+[2025-12-04T21:52:51.207+0530][gc,heap,exit]  Metaspace       used 6539K, committed 6784K, reserved 1114112K
+[2025-12-04T21:52:51.207+0530][gc,heap,exit]   class space    used 734K, committed 832K, reserved 1048576K

@@ -1,0 +1,31 @@
+jps - Java Process state. Lists the processes running in the JVM
+ln -s actual_name short_name
+
+Zookeeper:
+    Zookeeper-server-start.sh -daemon zookeeper.properties
+        - starting the zookeeper sever
+    Zookeeper-shell.sh localhost:2181
+        - Connecting to zookeeper shell to query about the broker details
+        - CMDs: ls /, ls /brokers
+
+Broker:
+    connects to the zookeeper through this property -> zookeeper.connect=localhost:2181 in server.properties file
+    kafka-server-start.sh -daemon server-0.properties
+    kafka-server-stop.sh
+
+Topic:
+    kafka-topics.sh --list --zookeeper localhost:2181
+        - Lists all the topic registered from the zookeeper
+    kafka-topics.sh --create --zookeeper localhost:2181 --topic first-topic --replication-factor 3 --partitions 2
+        - creates a new topic by connecting to the zookeeper
+    kafka-topics.sh --describe --zookeeper localhost:2181 --topic first-topic
+        - describe the topic by connecting to the zookeeper
+
+Producer:
+    kafka-console-producer.sh --broker-list localhost:9092,localhost:9093,localhost:9094 --topic first-topic
+
+Consumer:
+    kafka-console-consumer.sh --bootstrap-server localhost:9092,localhost:9093,localhost:9094 --topic first-topic --from-beginning --group first-group
+
+Consumer offset/lag details:
+     kafka-run-class.sh kafka.admin.ConsumerGroupCommand --bootstrap-server localhost:9092,localhost:9093 --group first-group --describe

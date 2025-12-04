@@ -1,0 +1,39 @@
+[2025-12-04 21:52:51,205] INFO Reading configuration from: zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2025-12-04 21:52:51,205] WARN zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2025-12-04 21:52:51,205] ERROR Invalid config, exiting abnormally (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+org.apache.zookeeper.server.quorum.QuorumPeerConfig$ConfigException: Error processing zookeeper.properties
+	at org.apache.zookeeper.server.quorum.QuorumPeerConfig.parse(QuorumPeerConfig.java:156)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:113)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:82)
+Caused by: java.lang.IllegalArgumentException: zookeeper.properties file is missing
+	at org.apache.zookeeper.server.util.VerifyingFileFactory.doFailForNonExistingPath(VerifyingFileFactory.java:51)
+	at org.apache.zookeeper.server.util.VerifyingFileFactory.validate(VerifyingFileFactory.java:45)
+	at org.apache.zookeeper.server.util.VerifyingFileFactory.create(VerifyingFileFactory.java:40)
+	at org.apache.zookeeper.server.quorum.QuorumPeerConfig.parse(QuorumPeerConfig.java:141)
+	... 2 more
+[2025-12-04 21:57:12,245] INFO Reading configuration from: zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2025-12-04 21:57:12,246] WARN zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2025-12-04 21:57:12,246] ERROR Invalid config, exiting abnormally (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+org.apache.zookeeper.server.quorum.QuorumPeerConfig$ConfigException: Error processing zookeeper.properties
+	at org.apache.zookeeper.server.quorum.QuorumPeerConfig.parse(QuorumPeerConfig.java:156)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:113)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:82)
+Caused by: java.lang.IllegalArgumentException: zookeeper.properties file is missing
+	at org.apache.zookeeper.server.util.VerifyingFileFactory.doFailForNonExistingPath(VerifyingFileFactory.java:51)
+	at org.apache.zookeeper.server.util.VerifyingFileFactory.validate(VerifyingFileFactory.java:45)
+	at org.apache.zookeeper.server.util.VerifyingFileFactory.create(VerifyingFileFactory.java:40)
+	at org.apache.zookeeper.server.quorum.QuorumPeerConfig.parse(QuorumPeerConfig.java:141)
+	... 2 more
+[2025-12-04 21:58:13,934] INFO Reading configuration from: zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2025-12-04 21:58:13,935] WARN zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2025-12-04 21:58:13,935] ERROR Invalid config, exiting abnormally (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+org.apache.zookeeper.server.quorum.QuorumPeerConfig$ConfigException: Error processing zookeeper.properties
+	at org.apache.zookeeper.server.quorum.QuorumPeerConfig.parse(QuorumPeerConfig.java:156)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:113)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:82)
+Caused by: java.lang.IllegalArgumentException: zookeeper.properties file is missing
+	at org.apache.zookeeper.server.util.VerifyingFileFactory.doFailForNonExistingPath(VerifyingFileFactory.java:51)
+	at org.apache.zookeeper.server.util.VerifyingFileFactory.validate(VerifyingFileFactory.java:45)
+	at org.apache.zookeeper.server.util.VerifyingFileFactory.create(VerifyingFileFactory.java:40)
+	at org.apache.zookeeper.server.quorum.QuorumPeerConfig.parse(QuorumPeerConfig.java:141)
+	... 2 more
